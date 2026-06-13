@@ -1,0 +1,31 @@
+/*Syntax for Css
+css selector{
+    property:value;
+}
+*/
+*{
+    color:mediumaquamarine;
+    background-color: black
+}   
+/*
+Semantics vs Non semantics
+Semantics: It is the meaning of the element. It gives us an idea about the content
+Non semantics: It does not give us any idea about the content. It is used for styling purpose only.
+*/
+span{
+    color:blue
+}
+
+
+
+/*Create a HTML portfolio basic.html. Create different sections for personal information ,skills,education,experience and additional information and social media links.Use portfoliobasic.css to style color and backgrounf color*
+*/
+
+body{
+    background-color: lightblue;
+    margin-left: 40%;
+}
+.title{
+    color:rgb(red, green, blue)
+}
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color:green;
+
+        }
+        span{
+            background-color:red ;
+        }
+        .inline{
+            display:inline;
+            
+
+        }
+        .inline-block{
+            display:inline-block;
+            height:200px;
+            width:100px;
+        }
+        .block{
+            .inline-block{}
+
+        }
+       .none{
+        display:none;
+       }
+       .box{
+        height:100px;
+        width:100px;
+        border: 1px solid black;
+    
+        
+       }
+    </style>
+</head>
+<body>
+    <h1>Display</h1>
+    <p class="ex1">
+        <span>RCB</span>
+        <span>MI</span>
+        <span>KKR</span>
+    </p>
+    <!--Block level tag vs inline tag
+    Block level covers the space of a block. If the tag is block-level element then it appears in new line.eg:div,h1,h2,h3,h4,h5,h6,p
+    
+    Inline Tag-covers the space of the element.If the tag is inline element then it appears in the same line.
+    eg:img,span,input,etc.   inline ma height and width dina mildaina ut inline-block ma milxa-->
+    <hr>
+
+    <h3>Inline</h3>
+    <p class="inline">
+        <span>Text1</span>
+        <span>Text2</span>
+        <span>Text3</span>
+    </p>
+    <hr>
+    <h3>Inline-Block</h3>
+    <p class="inline-block">
+        <span>Text1</span>
+        <span>Text2</span>
+        <span>Text3</span>
+        </p>
+    <hr>
+    <h3>Block</h3>
+    <p class="block">
+        <span style="display:block">Text1</span>
+        <span>Text2</span>
+        <span>Text3</span>
+        </p>
+    <hr>
+    <h3>None</h3>
+    <p class="none">
+              <span>Text1</span>
+      
+        <span>Text2</span>
+        <span>Text3</span>
+        </p>
+    <hr>
+
+
+    <!--
+    display: 
+    inline-block: converts block-level element to inline and has height and width property(unlike inline)
+    none:hides the element
+    inline:width and height wont work here-->
+
+
+    <h3>Border Radius</h3>
+
+    <div class="box" style="border-radius:50%;">
+
+    </div>
+    <div class="box" style="border-radius:20%;">
+
+    </div>
+<br>
+    <hr>
+
+
+    <!--Create a container class block with green background.The container block has 4 inline-block bpxes with 100px height and width. Apply Red color as background color with changing opacity box1:0,box1:0%,box2:15%,box3:25%,box4:50%-->
+
+</body>
+</html>

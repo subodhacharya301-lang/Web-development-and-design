@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        Form- Usecase- Resistration, Collect User input, Login, Online Shopping.
+        input - Collects input from user.
+            id - unique identifier, 
+            name - bname name of input field,
+            placeholder - suggestion texts.
+            text - for text input [Short like username, contact].
+            password - for password input.
+            date - provides day-month-year.
+            datetime-local - provides date and time.
+            number - for number input.
+            week - provides week and year.
+            month - provides month and year.
+            color - provides color picker
+            button - provides button [Usually not preferd]
+            
+        lable - provides lable input fields.
+            for - [Should be same as the id of input field] - connects lable to the input field.
+
+        textareas - for large input like bio, component, feedback.
+        button - for submit, reset, cancel.
+     -->
+    <h1> Form in HTML </h1>
+    <form action="" method="get">
+        <label for="uname">Username</label>
+        <br>
+        <input type="text" name="username" id="uname" placeholder="Enter your name" required>
+        <br><br>
+        <label for="pw">Password</label>
+        <br>
+        <input type="password" name="password" id="pw" placeholder="********" required>
+        <br><br>
+        <label for="bio">Bio-Data</label>
+        <br>
+        <textarea rows="10" cols="50" name="bio" id="bio"></textarea>
+        <br><br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+        <br><br>
+        <label for="age">Age</label>
+        <br>
+        <input type="number" name="age" id="age" placeholder="16" required>
+        <br><br>
+        <label for="brith"> Date of Birth </label>
+        <br>
+        <input type="date" name="dob" id="birth">
+        <input type="month" name="month">
+        <input type="week" name="week">
+        <br><br>
+        <label for="color">Select Color</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <input type="button" value="Submit">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

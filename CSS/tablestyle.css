@@ -1,0 +1,21 @@
+
+table{
+    width:700px;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    width:100%
+
+    
+
+}
+th,td{
+    border-bottom:1px solid black;
+    padding:8px;
+    text-align:left;
+    
+
+
+}
+th{
+    background-color: skyblue;
+}

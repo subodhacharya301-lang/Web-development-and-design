@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Media types</h1>
+    <ol>
+        <li>Audio</li>
+        <ul>
+            <li>Preload none</li>
+                <!-- This is the default value. It indicates that the browser should not preload the audio file at all. The audio file will only start downloading when thw user initiates playback -->
+                <audio src="../media/Ankita Pun - Maili (Official Music Video) [LFSU-SqMrgk].mp3" controls loop preload="none"></audio>
+
+            <li>Preload metadata</li>
+                <!-- This value tells the browser to perload only the metadata of the audio file, sucha s duration and basic information about the audio. This can be useful if you want to display the audio duration to the user without filly loading the audio data  -->
+                <audio src="../media/Ankita Pun - Maili (Official Music Video) [LFSU-SqMrgk].mp3" controls loop preload="metadata"></audio>
+
+            <li>Preload auto</li>
+                <!-- This value instructs the browser to preliad the entire audio file as much as possible without delaying the loading of other important page content, The broser will try to load the audio file int the background so that it's ready to play when the user decides to start it. -->
+                <audio src="../media/Ankita Pun - Maili (Official Music Video) [LFSU-SqMrgk].mp3" controls loop preload="auto"></audio>
+        </ul>
+
+        <br>
+
+        <li>Video</li>
+            <video src="../media/Ankita Pun - Maili (Official Music Video).mp4" width="400"  controls autoplay loop></video>
+
+        <br>
+        <br>
+
+        <li>iFrame</li>
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/ccw-bhwtLTw?si=Bs932B0rwDJYj73O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <br>
+        <br>
+
+        <li>Map</li>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31397712412!2d85.3261328!3d27.708960349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e0!3m2!1sen!2snp!4v1777515059166!5m2!1sen!2snp" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <br>
+        <br>
+
+        <li>Website</li>
+        <iframe src="https://www.lbef.org/" frameborder="1" width="500" height="300"></iframe>
+    </ol>
+
+    <!-- Create contentcreator.html, write about your favourite content creater. Include his most popular youtube or social media video, include the city he/she is from.  -->
+</body>
+</html>

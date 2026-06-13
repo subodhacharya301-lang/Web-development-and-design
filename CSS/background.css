@@ -1,0 +1,48 @@
+body{
+    background-image:url(../Image/chudel.png);
+    background-size:300px;
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-attachment:fixed;
+    background-position: center;
+
+}
+
+
+.container{
+    height:1000px;
+    width:300px;
+    background-color: darkslateblue;
+}
+
+/*
+Background-size:for the size of an background image values can be unit or (auto/cover/contain)
+
+Background-repeat:defines how many times image will be repeated. Possible values(repeat-x[repeats image in x-axis],repeat-y[repeats image in y-axis],no-repeat)
+
+Background-attachment - defines whetther a image is scrollable or fixed.
+  
+Background-position -to fix the image in certain position of the screen.*/
+
+.bg-container{
+    height:500px;
+    width:500px;
+    border:1px solid black;
+}
+
+#auto{
+    background-image: url("../Image/Mahadev.png");
+    background-size:auto;
+}
+
+#cover{
+    background-image: url("../Image/Roman.png");
+    background-size:cover;
+}
+
+#contain{
+    background-image: url("../Image/thor.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

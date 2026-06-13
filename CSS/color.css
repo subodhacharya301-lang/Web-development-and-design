@@ -1,0 +1,33 @@
+#rgb{
+    background-color: rgb(255, 0, 0);
+}
+#green{
+    background-color: rgb(0, 255, 0);
+}
+#blue{
+    background-color: rgb(0, 0, 255);
+}
+#alpha{
+    background-color: rgba(239, 156, 156, 0.5);
+}
+/* rgba is used to set the opacity of the color. The value of alpha can be between 0 and 1. 0 means fully transparent and 1 means fully opaque. */
+/*HSL stands for Hue, Saturation and Lightness. Hue is the color type, saturation is the intensity of the color and lightness is the brightness of the color. */
+#hsl{
+    background-color:hsl(0, 100%, 50%)
+}
+#hslgreen{
+    background-color:hsl(120, 100%, 50%)
+}
+#hslblue{
+    background-color:hsl(240, 100%, 50%)
+}
+#saturation{
+    background-color:hsl(0, 100%, 50%);
+
+}
+#light{
+    background-color:hsl(50, 50%, 50%);
+}
+/*HSL-Hue-0-360, Saturation-0%-100%, Lightness-0%-100% */
+/*HUE represents color,0/360-red, 120-green, 240-blue. Saturation represents the intensity of the color, 0% means a shade of gray and 100% means full color. Lightness represents the brightness of the color, 0% means black, 50% means normal color and 100% means white. */
+/*hsla=here a refers alpha same like rgba, it is used to set the opacity of the color. The value of alpha can be between 0 and 1. 0 means fully transparent and 1 means fully opaque. */

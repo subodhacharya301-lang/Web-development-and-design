@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../CSS/flexbox.css">
+</head>
+<body>
+ <h1>Flexbox</h1> 
+ <div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+  <div class="item">7</div>
+  <div class="item">8</div>
+  <div class="item">9</div>
+  <div class="item">10</div>
+  <div class="item">11</div>
+  <div class="item">12</div>
+  <div class="item">13</div>
+  <div class="item">14</div>
+  <div class="item">15</div>
+  <div class="item">16</div>
+  <div class="item">17</div>
+  <div class="item">18</div>
+  <div class="item">19</div>
+  <div class="item">20</div>
+ </div>
+
+ <!-- Flexbox - used to allign item in one dimension( row or column). It requies one container and items inside it. It helps to allign item horizontally, vertically, change the direction of flex, shrink the item, grow the item , arrange the order, etc. -->
+
+ <h3>Flex Direction</h3>
+ <p>Row</p>
+ <div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+ </div>
+ <hr>
+ <p>Row-Reverse</p>
+  <div class="container" style="flex-direction: row-reverse;">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+ </div>
+ <hr>
+ <p>Column</p>
+ <div class="container"style="flex-direction:column;">
+ <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+ </div>
+ <hr>
+ <p>Column-Reverse</p>
+ <hr>
+ <h3>Justify Content</h3>
+ <!--Justify content arrange the items in the main axis syntax:
+ justify-content:start/end/center/space-evenly/space-around,space-between-->
+ <div class="container"style="background-color:lightgreen; justify-content:space-between;">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+ </div>
+ <hr>
+<h3>Align Item</h3>
+
+<!---->
+    <div class="container" style="background-color: tomato; justify-content: space-evenly; align-items: stretch; align-items:center">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <hr>
+</body>
+</html>
