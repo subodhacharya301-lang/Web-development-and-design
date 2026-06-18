@@ -1,13 +1,14 @@
-/* Portfolio */
+/* Portfolio  Mobile View*/
 body{
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 
-{
 
-}
+
+
 /* Navigation Menu */
 .navbar{
     display: flex;
@@ -44,7 +45,7 @@ span{
     width: 380px;
     height: 380px;
     border: 1px solid black;
-    background-image: url("../Image/Portugal.png");
+    background-image: url("../Image/Roman.png");
     background-size: cover;
     border-radius: 50%;
 
@@ -65,4 +66,95 @@ h1{
     position: relative;
     left: 20vw;
     top: 20vh;
+}
+
+.content{
+    width:90%;
+    left: 0;
+    top: 0;
+}
+
+@media (max-width: 600px) {
+    .navbar{
+        z-index: 1;
+        background-color: whitesmoke;
+    }
+    span{
+        font-size: 16px;
+
+    }
+    .links{
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        top: 12vh;
+    }
+
+    .image{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 0;
+        top: 0;
+    }
+
+
+    section{
+        margin: 10px 0px;
+
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    h3{
+        text-align: center;
+    }
+}
+
+
+
+
+
+/*tablet view*/
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 90%;
+        margin: auto;
+        top: 15vh;
+    }
+
+    .image{
+        position: relative;
+        width: 280px;
+        height: 280px;
+        left: 0;
+        top: 0;
+    }
+
+    .content{
+        width: 50%;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .links{
+        gap: 25px;
+    }
 }
